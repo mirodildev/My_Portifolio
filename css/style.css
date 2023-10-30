@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1040px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title{
+    color:teal;
+}
+
+.header {
+    background-color: lightgray;
+    box-shadow: 0px 0px 7px teal;
+    padding: 15px 0px 15px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.darkmode {
+    cursor: pointer;
+    box-shadow: inset 0px 0px 10px rgb(133, 43, 197);
+    border-radius: 50%;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    background-color:teal;
+}
+
+.hidden {
+    display: none;
+}
+
+.sun {
+    font-size: 20px;
+    text-shadow: 0px 0px 5px aqua;
+}
+
+.moon {
+    font-size: 20px;
+    text-shadow: 0px 0px 5px aqua;
+}
+
+.dark {
+    background-image: linear-gradient(162deg, rgba(0, 24, 36, 0.571) 7%, rgb(68, 3, 68) 49%, rgba(8, 11, 108, 0.215) 93%, rgba(9, 9, 121, 0.575) 100%, rgba(0, 213, 255, 0.565) 100%);
+    transition: all 1s ease;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+ align-items: center;
+}
+
+.body {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.mirodil{
+    position: absolute;
+right: 10px;   
+color: teal;
+z-index: 1;
+cursor: pointer;
+}
+.opa{
+    opacity: 0;
+}
+.btandlink{
+display: flex;
+align-items: center;
+}
+.header-telegram{
+    transition: all 1s ease;
+    text-decoration: none;
+    border: 1px solid teal ;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: lightgray;
+}
+.header-telegram:hover{
+     color: rgb(232, 232, 239);
+}
+.bet{
+    background-color: black;
+}
+.link-hover{
+    position: relative;
+    margin-right: 10px;
+    display: flex;
+    align-items: center
+    ;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+
+    background-color: lightgrey;
+}
+.hover{
+   box-shadow: inset 0px 0px 7px teal;
+   padding-right: 130px;
+}
+
